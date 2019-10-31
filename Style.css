@@ -98,3 +98,12 @@ body{
   color: white;
   border-radius: 5px;
 }
+
+.login-box-faculty{
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 100px;
+  width:600px;
+  height: 900px;
+  background-color: white;
+}
