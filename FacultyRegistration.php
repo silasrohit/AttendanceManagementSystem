@@ -10,16 +10,13 @@
     <div class="nav-bar">
       <h1 class="logo">attentry</h1>
     </div>
-<div class="login-box">
+<div class="login-box-faculty">
   <form class="form1" action="login.php" method="post">
     <input class="input1" type="text" name="" value="" placeholder="Email..."><br>
     <input class="input2" type="password" name="" value="" placeholder="Password..."><br>
     <input class="login-btn" type="submit" name="" value="Login">
   </form>
 
-<?php
-
- ?>
 
 </div>
 </body>
