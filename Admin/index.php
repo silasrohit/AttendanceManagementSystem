@@ -10,8 +10,6 @@
     <div class="nav-bar">
       <h1 class="logo">attentry</h1>
     </div>
-
-
 </div>
 </body>
 </html>
