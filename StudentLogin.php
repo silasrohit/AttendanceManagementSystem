@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Attentry - Attendance Management System</title>
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet"  href="Style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
   </head>
   <body>
