@@ -12,12 +12,10 @@
     </div>
 <div class="login-box">
   <form class="form1" action="login.php" method="post">
-    <input class="input1" type="text" name="" value="" placeholder="Email..."><br>
+    <input class="input1" type="text" name="roll_no" value="" placeholder="Roll No..."><br>
     <input class="input2" type="password" name="" value="" placeholder="Password..."><br>
     <input class="login-btn" type="submit" name="" value="Login">
   </form>
-
-
 </div>
 </body>
 </html>
