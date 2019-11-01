@@ -107,3 +107,32 @@ body{
   height: 900px;
   background-color: white;
 }
+
+.message{
+  margin-top: 10px;
+  font-family: Avenir Next;
+  font-size: 20px;
+}
+
+.faculty-logout{
+  margin: 0px;
+  margin-top: -43px;
+  float: right;
+  font-size: 18px;
+  margin-right: 70px;
+  color: white;
+  border-radius: 15px;
+}
+
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 9px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
