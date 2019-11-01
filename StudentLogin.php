@@ -2,16 +2,11 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-<<<<<<< HEAD
-    <title>Attentry - StudentLogin</title>
-    <link rel="stylesheet"  href="Style.css">
-=======
     <title>Attentry - Attendance Management System</title>
     <link rel="stylesheet" href="Style.css">
->>>>>>> c8b9d4dc6840fca134c8b9167342ad93f280158f
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
   </head>
-  <body> 
+  <body>
     <div class="nav-bar">
       <h1 class="logo">attentry</h1>
     </div>
@@ -21,8 +16,6 @@
     <input class="input2" type="password" name="" value="" placeholder="Password..."><br>
     <input class="login-btn" type="submit" name="" value="Login">
   </form>
-
-
 </div>
 </body>
 </html>
