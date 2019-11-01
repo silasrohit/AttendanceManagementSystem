@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="nav-bar">
-      <h1 class="logo">attentry</h1>
+      <h1 class="logo">attentry</h1> 
     </div>
 <div class="login-box-faculty">
   <form class="form1" action="login.php" method="post">
