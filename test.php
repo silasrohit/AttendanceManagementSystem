@@ -7,22 +7,25 @@
   </head>
   <body>
 
-    <form class="" action="test.php" method="post">
-      <?php
-        for($i=0;$i<=30;$i++){
-          echo "$i = <input type='checkbox' name='check' value='$i'></br>";
-        } 
-       ?>
-       <input type="submit" name="" value="Submit">
-    </form>
-
     <?php
 
-    if(isset($_POST['submit'])){
-      foreach($_POST['check'] as $present){
-        echo $present;
-      }
-    }
+    $con = mysqli_connect("localhost","root","","Attendance");
+
+      $sql = "SELECT SNAME FROM Student_Info WHERE BRANCH = 'COMPUTER' && SEM = '5'";
+      $result = mysqli_query($con,$sql);
+
+      $rows = mysqli_num_rows($result);
+
+      if ($rows > 0) {
+          while($row = mysqli_fetch_assoc($result)) {
+            echo $row['SNAME']. "<input type='checkbox' name='' value='' checked>";
+            echo '</br>';
+          }
+
+          echo '<input type="submit" name="" value="POST ATTENDANCE">';
+        } else {
+          echo "0 results";
+        }
 
      ?>
 
